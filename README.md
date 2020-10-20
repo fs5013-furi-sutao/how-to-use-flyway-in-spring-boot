@@ -1,5 +1,24 @@
 # Spring Boot で DB マイグレーションツール Flyway を使う
 
+## サンプルコードの実行方法
+
+### MySQL コンテナの起動
+```console
+docker-compose up -d
+```
+
+### API サーバの起動
+```console
+gradle bootRun
+```
+
+### API ドキュメントを開く
+```
+http://localhost:8080/swagger-ui/index.html
+```
+
+***
+
 ## Flywayマイグレーションとは
 データベースのバージョン管理ツールである。
  
